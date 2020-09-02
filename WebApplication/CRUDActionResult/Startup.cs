@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace CRUD1WebApi
+namespace CRUDActionResult
 {
     public class Startup
     {
@@ -28,11 +28,14 @@ namespace CRUD1WebApi
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseRouting();
+
             app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }
