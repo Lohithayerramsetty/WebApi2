@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD1WebApi", "CRUD1WebApi\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDActionResult", "CRUDActionResult\CRUDActionResult.csproj", "{DC7686EC-BF40-40EF-B514-DE356C0DAA31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiJavaScript", "WebApiJavaScript\WebApiJavaScript.csproj", "{3059CEFD-26EE-410B-B892-BB5CCFD5C970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiJavaScript", "WebApiJavaScript\WebApiJavaScript.csproj", "{3059CEFD-26EE-410B-B892-BB5CCFD5C970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiEntityFramework", "WebApiEntityFramework\WebApiEntityFramework.csproj", "{377F424E-C2A4-4429-B0FB-C1E8B4239350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3059CEFD-26EE-410B-B892-BB5CCFD5C970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3059CEFD-26EE-410B-B892-BB5CCFD5C970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3059CEFD-26EE-410B-B892-BB5CCFD5C970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377F424E-C2A4-4429-B0FB-C1E8B4239350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377F424E-C2A4-4429-B0FB-C1E8B4239350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377F424E-C2A4-4429-B0FB-C1E8B4239350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377F424E-C2A4-4429-B0FB-C1E8B4239350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
