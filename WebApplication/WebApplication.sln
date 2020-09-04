@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiJavaScript", "WebApiJ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiEntityFramework", "WebApiEntityFramework\WebApiEntityFramework.csproj", "{377F424E-C2A4-4429-B0FB-C1E8B4239350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiIdentity", "WebApiIdentity\WebApiIdentity.csproj", "{BC5B308C-1F3E-415B-A31F-2A4B9D90B4A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiIdentity", "WebApiIdentity\WebApiIdentity.csproj", "{BC5B308C-1F3E-415B-A31F-2A4B9D90B4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWithApi", "BlazorWithApi\BlazorWithApi.csproj", "{71A8A79B-F59D-4CE7-948E-2028D100231D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{BC5B308C-1F3E-415B-A31F-2A4B9D90B4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC5B308C-1F3E-415B-A31F-2A4B9D90B4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC5B308C-1F3E-415B-A31F-2A4B9D90B4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A8A79B-F59D-4CE7-948E-2028D100231D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A8A79B-F59D-4CE7-948E-2028D100231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A8A79B-F59D-4CE7-948E-2028D100231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A8A79B-F59D-4CE7-948E-2028D100231D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
